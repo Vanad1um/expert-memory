@@ -1,0 +1,11 @@
+commit e56eeccfc9905b30c5dda37e2fc62e97bd0548f9 (HEAD -> master)
+Author: Solomykin Ivan <solomykinbusiness@gmail.com>
+Date:   Mon Feb 15 21:20:35 2021 +0300
+
+    add task1/status.txt
+
+commit e2691813c3947d655c30e5a47227f75987606113
+Author: Solomykin Ivan <solomykinbusiness@gmail.com>
+Date:   Mon Feb 15 21:18:57 2021 +0300
+
+    add .gitignore
