@@ -1,0 +1,7 @@
+"method" - invokes the method
+"lang" - sets the quote language to return
+"key" numeric key, which influences the choice of quotation
+
+1) We set english language
+2) Now we see the quote in russian
+3) We've set the key for the for the request

@@ -1,0 +1,15 @@
+"term" parameter is the URL-encoded text string you want to search for;
+"country" is for the search in specific country with by ISO country code (BY for Bealrus, US for United States)
+"media" is for the media type you want to search for
+"limit" sets the number of results to return (20 in our example)
+"explicit" is a flag indicating whether or not you want to include explicit content in result (no in our example)
+
+1) We set our search string to "white+dress" and media type to "musicVideo"
+We see the result which is JSON file that includes an object with its fields;
+We see 4 different collections;
+
+2) We change string to "white+dress+lana" which shows us only 1 object that meets our
+search requirements;
+
+3) Now we change search string to "lana+del+rey" and also change the media type to "music"
+which shows us data of all of her music but it's limited by 20 results;
