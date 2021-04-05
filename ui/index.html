@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Главная - BFsales</title>
     <link href="css\styles.css" rel="stylesheet">
     <link rel="SHORTCUT ICON" href="images\favicon.ico" type="image\x-icon">
@@ -13,54 +14,53 @@
 </head>
 <header>
     <div class="header">
-        <a href="index.html"><img src="images\logo_header.png" class="logo"></a>
+        <a href="index.html"><img src="images\logo_header.png" class="logo" alt=""></a>
 
-        <div class="header_moto">
-            choose wisely with us
-        </div>
-
+        <div class="header_moto">choose wisely with us</div>
         <div class="header_line"></div>
 
         <div class="login_window">
             <img src="images\phone.png" class="phone">
             <div class="login_phone_num">info: +375-XX-XXX-XX-XX</div>
 
-            <div class="login_button">
+            <button class="login_button1">
                 <div class="login_text_style login_user_you">You:</div>
                 <div class="login_text_style login_user_name">SushiMax</div>
-                <div class="login_line1"></div>
+            </button>
+            <button class="login_button2">
                 <div class="login_text_style login_add_post">Add Post</div>
-                <div class="login_line2"></div>
+            </button>
+            <button class="login_button3">
                 <div class="login_text_style login_log_out">Log Out</div>
-            </div>
+            </button>
         </div>
 
-        <div class="header_menu">
-
-        </div>
+        <div class="header_menu"></div>
     </div>
 </header>
 
 <body>
 <div class="main">
     <div class="side_panel">
+
         <div class="side_date_text">Date</div>
-        <div class="side_search_from_field"></div>
-        <div class="side_search_to_field"></div>
+        <input class="side_search_from_field"></input>
+        <input class="side_search_to_field"></input>
+
         <div class="side_vendors_name_text">Vendor's name</div>
-        <div class="side_vendors_field"></div>
+        <input class="side_vendors_field"></input>
 
         <ul class="side_hashtag_list1">
-            <li class="description_style">#food</li>
-            <li class="description_style">#sushi</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
-            <li class="description_style">#hashtag</li>
+            <li class="description_style"><a>#food</a></li>
+            <li class="description_style"><a>#sushi</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
+            <li class="description_style"><a>#hashtag</a></li>
         </ul>
         <ul class="side_hashtag_list2">
             <li class="description_style">#hashtag</li>
@@ -76,8 +76,8 @@
         </ul>
 
         <div class="side_line_design"></div>
-        <div class="side_small_text_design side_date_sort_from_last">Date: Last -> First</div>
-        <div class="side_small_text_design side_date_sort_from_first">Date: First -> Last</div>
+        <div class="side_small_text_design side_date_sort_from_last"><a>Date: Last -> First</a></div>
+        <div class="side_small_text_design side_date_sort_from_first"><a>Date: First -> Last</a></div>
     </div>
 
     <ul class="content">
@@ -85,27 +85,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
+
+            <div>
             <img class="star_rating_first" src="images\star_yellow.png">
             <img class="star_rating_second" src="images\star_yellow.png">
             <img class="star_rating_third" src="images\star_yellow.png">
             <img class="star_rating_fourth" src="images\star_yellow.png">
             <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -117,27 +120,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -149,27 +155,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -181,27 +190,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -213,27 +225,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -245,27 +260,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -277,27 +295,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -309,27 +330,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -341,27 +365,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -373,27 +400,30 @@
             <img class="offer_pic" src="images\preview_sushi.png">
             <p class="offer_name_style offer_name_text">SuperSushi Set “McDonalds”</p>
             <div class="hashtags_style hashtags_text">#sushi #food</div>
-            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine,
-                consisting of cooked
+            <div class="description_style description_text">Sushi, a staple rice dish of Japanese cuisine, consisting of cooked
                 rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served
                 cold.
             </div>
-            <img class="star_rating_first" src="images\star_yellow.png">
-            <img class="star_rating_second" src="images\star_yellow.png">
-            <img class="star_rating_third" src="images\star_yellow.png">
-            <img class="star_rating_fourth" src="images\star_yellow.png">
-            <img class="star_rating_fifth" src="images\star_grey.png">
-            <div class="description_style reviews_num_text">7 reviews</div>
-            <div class="description_style post_review_text">Post Your Review</div>
-            <div class="hashtags_style vendors_name_text">SushiMax</div>
+
+            <div>
+                <img class="star_rating_first" src="images\star_yellow.png">
+                <img class="star_rating_second" src="images\star_yellow.png">
+                <img class="star_rating_third" src="images\star_yellow.png">
+                <img class="star_rating_fourth" src="images\star_yellow.png">
+                <img class="star_rating_fifth" src="images\star_grey.png">
+            </div>
+
+            <button class="description_style reviews_num_text">7 reviews</button>
+            <button class="description_style post_review_text">Post Your Review</button>
+            <button class="hashtags_style vendors_name_text">SushiMax</button>
             <div class="offer_date_post_text">19.02.2021 18:59</div>
 
-            <div class="delete_offer_button">
-                <P class="delete_offer_button_text right_buttons_text_style">Delete</P>
-            </div>
-            <div class="edit_offer_button">
-                <P class="edit_offer_button_text right_buttons_text_style">Edit</P>
-            </div>
+            <button class="delete_offer_button">
+                <p class="delete_offer_button_text right_buttons_text_style">Delete</p>
+            </button>
+            <button class="edit_offer_button">
+                <p class="edit_offer_button_text right_buttons_text_style">Edit</p>
+            </button>
             <div class="discount_amount">
                 <p class="discount_amount_text">-17%</p>
             </div>
@@ -401,7 +431,7 @@
                 <p class="discount_date_text right_buttons_text_style">08.12.2021</p>
             </div>
         </li>
-        <li class="load_more_button"><p class="load_more_text right_buttons_text_style">Load more</p></li>
+        <li><button class="load_more_button"><p class="load_more_text right_buttons_text_style">Load more</p></button></li>
     </ul>
 
 </div>
@@ -418,9 +448,13 @@
 
         <div class="footer_part2">
             <div class="footer_big_text_style footer_text_contact">CONTACT US</div>
-            <a href="mailto:solomykinbusiness@gmail.com"><div class="footer_text_style footer_text_mail">solomykinbusiness@gmail.com</div></a>
+            <a href="mailto:solomykinbusiness@gmail.com">
+                <div class="footer_text_style footer_text_mail">solomykinbusiness@gmail.com</div>
+            </a>
             <div class="footer_text_style footer_text_name">Solomykin Ivan, 2 course, 8 group</div>
-            <a href="tel:+375333042281"><div class="footer_text_style footer_text_phone_num1">+375-(33)-304-22-81</div></a>
+            <a href="tel:+375333042281">
+                <div class="footer_text_style footer_text_phone_num1">+375-(33)-304-22-81</div>
+            </a>
             <div class="footer_text_style footer_text_phone_num2">+375-XX-XXX-XX-XX</div>
         </div>
 
@@ -430,10 +464,13 @@
 
         <div class="footer_part4">
             <div class="footer_big_text_style footer_text_following">FOLLOW US</div>
-            <a href="https://www.instagram.com/?hl=ru"><img class="footer_logo1" src="images\social networks\insta_logo.png"></a>
-            <a href="https://www.facebook.com/"><img class="footer_logo2" src="images\social networks\facebook_logo.png"></a>
+            <a href="https://www.instagram.com/?hl=ru"><img class="footer_logo1"
+                                                            src="images\social networks\insta_logo.png"></a>
+            <a href="https://www.facebook.com/"><img class="footer_logo2"
+                                                     src="images\social networks\facebook_logo.png"></a>
             <a href="https://vk.com/"><img class="footer_logo3" src="images\social networks\vk_logo.png"></a>
-            <a href="https://www.viber.com/ru/"><img class="footer_logo4" src="images\social networks\viber_logo.png"></a>
+            <a href="https://www.viber.com/ru/"><img class="footer_logo4"
+                                                     src="images\social networks\viber_logo.png"></a>
         </div>
     </div>
 </footer>
