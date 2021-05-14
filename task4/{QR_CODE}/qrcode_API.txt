@@ -1,0 +1,9 @@
+"color" - Color of the data modules as RGB value
+"size" - Specifies the size of the QR code image you want to generate
+"data" - The text to store within the QR code
+"bgcolor" - Color of the background as RGB value
+"qzone" - Thickness of a margin in modules as measuring unit.
+
+1) Recieving an image of QR-code on a green background color with specified text
+2) Recieving an image of QR-code on a green background with the same text but with thick margin
+3) Recieving an image of QR-code of blue color on a green background with the same text but with not so thick margin
