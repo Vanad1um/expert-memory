@@ -10,9 +10,12 @@ import java.io.IOException;
 @WebServlet("/get")
 public class ServletGet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException{
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String name = req.getParameter("name");
         ServletOutputStream stream = resp.getOutputStream();
-        stream.print("Name is " + name);
+        if (name.length() > 100 || name.length() == 0)
+            stream.print("Incorrect name");
+        else
+            stream.print("Name is " + name);
     }
 }
